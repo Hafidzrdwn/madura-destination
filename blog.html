@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Madura Destination</title>
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white py-3 border-bottom fixed-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="./assets/logo.png" width="75" alt="" />
+        </a>
+        <div
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navCollapse"
+        >
+          <div class="navbar-toggler-icon"></div>
+        </div>
+        <div class="ms-lg-5 collapse navbar-collapse" id="navCollapse">
+          <ul class="navbar-nav">
+            <li class="nav-item me-5">
+              <a href="index.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item me-5">
+              <a href="detail.html" class="nav-link">DESTINATION</a>
+            </li>
+            <li class="nav-item me-5">
+              <a href="blog.html" class="nav-link active">BLOG</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item me-5">
+              <div class="dropdown">
+                <a
+                  class="text-web-primary nav-link dropdown-toggle"
+                  href="#"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ENG
+                </a>
+
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item text-web-primary" href="#">ID</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item active text-web-primary" href="#"
+                      >ENG</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item mt-4 mt-xl-0 mt-lg-0">
+              <a href="#" class="btn btn-outline-primary me-3">LOG IN</a>
+              <a href="#" class="btn btn-primary">SIGN UP</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="hero" class="hero-blog">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-xl-8">
+            <h1 class="hero-title fw-bold mt-md-4">Madura Destination Blog</h1>
+            <h5 class="mt-3 mb-4 hero-subtitle text-web-primary fw-normal">
+              Explore Madura: A Journey into a Land of Cultural Riches, Scenic
+              Beauty, and Unforgettable Experiences Awaits You in This Hidden
+              Gem.
+            </h5>
+            <form method="GET" class="form-search-hero">
+              <div
+                class="form-group d-flex justify-content-start align-items-center gap-3"
+              >
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search Article, Topic, etc.."
+                />
+                <button type="submit" class="btn btn-primary">Search</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div
+          class="row nav-buttons justify-content-start align-items-center mt-5 row-gap-4"
+        >
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <button type="button" class="btn">Tourist Attractions</button>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <button type="button" class="btn">Tradition & Culture</button>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <button type="button" class="btn">Culinary Tourism</button>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-6">
+            <button type="button" class="btn">Daily Life</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog-posts" class="py-5">
+      <div class="container">
+        <article class="recent-posts">
+          <h2 class="recent-post-title text-web-primary">Most Recent Posts</h2>
+          <div class="row justify-content-between align-items-start row-gap-4">
+            <div class="col-xl-8 col-lg-8 col-md-12 big-most-post">
+              <div class="card border-0">
+                <img
+                  src="./assets/image/gili-iyang-3.jpg"
+                  class="card-img-top"
+                  alt="post-image"
+                />
+                <div class="card-body p-0 py-3">
+                  <small class="font-monospace">Tourist Attractions</small>
+                  <h3 class="card-title mt-2">
+                    explore the beauty of gili iyang : sea water that tempts the
+                    eye
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                    asperiores placeat beatae quas odio dolorem sunt rem ullam,
+                    ab culpa!
+                  </p>
+                </div>
+
+                <span class="badge rounded-pill bg-primary position-absolute"
+                  >Trending</span
+                >
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 side-most-post">
+              <div
+                class="d-flex justify-content-center align-items-center flex-xl-column flex-lg-column flex-md-row gap-3"
+              >
+                <div class="small-post-1">
+                  <div class="card border-0">
+                    <img
+                      src="./assets/image/karapan-sapi-3.jpg"
+                      class="card-img-top"
+                      alt="post-image"
+                    />
+                    <div class="card-body p-0 py-3">
+                      <small class="font-monospace">Tradition & Culture</small>
+                      <h3 class="card-title mt-1">
+                        "Karapan Sapi" (cow racing) : an exciting madurese
+                        tradition
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="small-post-2">
+                  <div class="card border-0">
+                    <img
+                      src="./assets/image/lorjuk.jpg"
+                      class="card-img-top"
+                      alt="post-image"
+                    />
+                    <div class="card-body p-0 py-3">
+                      <small class="font-monospace">Culinary Tourism</small>
+                      <h3 class="card-title mt-1">
+                        first time trying madura speciality food: lorjuk
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="banner-blog-subs py-5 mt-3">
+      <div class="container py-5">
+        <div class="row justify-content-between align-items-center row-gap-4">
+          <div class="col-xl-6 col-lg-6 col-md-12">
+            <h1 class="fw-bold text-web-primary">
+              Get our best content<br />
+              in your inbox
+            </h1>
+            <h5 class="fw-normal mt-3 text-web-primary">
+              Our website provides comprehensive information about Madura's
+              attractions and local experiences to help you plan your visit.
+            </h5>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email Address*"
+                aria-describedby="button-addon2"
+              />
+              <button class="btn btn-primary" type="button" id="button-addon2">
+                Subscribe
+              </button>
+            </div>
+            <small style="font-size: 13px"
+              >Your privacy matters! Madura Destination only uses this info to
+              send content and updates. You may unsubscribe anytime. View our
+              privacy policy for more.
+            </small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="latest-in" class="py-5">
+      <div class="container">
+        <h2 class="latest-in-title text-web-primary text-center">
+          Discover the latest in
+        </h2>
+
+        <div
+          class="row discover-topic justify-content-between align-items-center"
+        >
+          <div class="col-xl-4 col-lg-6 col-md-6 col-5">
+            <h3 class="m-0 text-web-primary fw-bold">Daily Life</h3>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6 col-7 text-end">
+            <a href="" class="text-decoration-none fw-bold"
+              >View More Posts ></a
+            >
+          </div>
+        </div>
+
+        <div
+          class="row daily-posts justify-content-between align-items-center mt-5 row-gap-4"
+        >
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="card border-0">
+              <img
+                src="./assets/image/discover_1.jpg"
+                class="card-img-top"
+                alt="post-image"
+              />
+              <div class="card-body p-0 py-3">
+                <small class="font-monospace">Daily Life</small>
+                <h3 class="card-title mt-1">
+                  the uniqueness of madurese activities
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="card border-0">
+              <img
+                src="./assets/image/discover_2.jpg"
+                class="card-img-top"
+                alt="post-image"
+              />
+              <div class="card-body p-0 py-3">
+                <small class="font-monospace">Daily Life</small>
+                <h3 class="card-title mt-1">
+                  getting to know the madurese martial arts culture
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12">
+            <div class="card border-0">
+              <img
+                src="./assets/image/discover_3.jpg"
+                class="card-img-top"
+                alt="post-image"
+              />
+              <div class="card-body p-0 py-3">
+                <small class="font-monospace">Daily Life</small>
+                <h3 class="card-title mt-1">
+                  the life of fishermen and the peace of the island of Madura
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner py-5 mt-3">
+      <div class="container py-5">
+        <div class="row justify-content-center align-items-center text-center">
+          <div class="col-12">
+            <h1 class="fw-bold text-web-primary" style="line-height: 50px">
+              Get Started With<br />
+              Madura Destination
+            </h1>
+            <h5 class="fw-normal my-4 text-web-primary">
+              Curious about what Madura has to offer? Embark on a journey with a
+              free tour guide — we'll<br />
+              happily extend your stay if you crave more adventures.
+            </h5>
+            <a href="" style="width: 160px" class="btn btn-primary fw-bold"
+              >Sign Up</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="container pb-5">
+      <footer class="mt-5 py-5">
+        <div
+          class="row justify-content-between align-items-center mb-5 row-gap-4"
+        >
+          <div
+            class="col-xl-5 col-lg-5 col-md-6 d-flex justify-content-start align-items-center gap-3"
+          >
+            <img src="./assets/logo.png" width="85" alt="Logo Web" />
+            <div class="desc-logo">
+              <h3 class="m-0 text-web-primary fw-bold">Madura Destination</h3>
+              <h6 class="m-0 text-web-primary mt-1">maduradsid@gmail.com</h6>
+            </div>
+          </div>
+
+          <div class="col-xl-5 col-lg-5 col-md-6">
+            <div class="d-flex justify-content-between align-items-center">
+              <a href="index.html" class="nav-link">HOME</a>
+              <a href="detail.html" class="nav-link">DESTINATION</a>
+              <a href="blog.html" class="nav-link active">BLOG</a>
+              <a href="#" class="btn-back-to-top">
+                <img
+                  src="./assets/arrow-top.png"
+                  id="backToTop"
+                  width="40"
+                  alt="Back to Top"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <h5 class="text-web-primary text-center copyright">
+        © 2023-2024 Madura Destination. All Rights Reserved.
+      </h5>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
